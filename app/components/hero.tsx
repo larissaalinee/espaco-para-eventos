@@ -42,17 +42,14 @@ export function Hero() {
           Bairro {site.neighborhood} &bull; {site.city} - {site.state}
         </p>
 
-        <h1 className="max-w-3xl font-display text-4xl font-bold leading-[1.1] text-cream-50 drop-shadow-lg sm:text-5xl lg:text-6xl">
+        <p className="font-display text-xl text-sun-400 sm:text-2xl">
+          Pertinho do centro, longe da correria
+        </p>
+
+        <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold leading-[1.1] text-cream-50 drop-shadow-lg sm:text-5xl lg:text-6xl">
           Seu evento em meio à natureza,{" "}
           <span className="text-river-300">com vista para o rio</span>
         </h1>
-
-        <p className="mt-6 max-w-2xl text-base leading-relaxed text-cream-100/90 sm:text-lg">
-          Um espaço amplo e totalmente externo para chá revelação, festas de
-          aniversário, confraternizações, encontros de família e muito mais.
-          Piscina, churrasqueira, som liberado e estacionamento no local, a
-          poucos minutos do centro.
-        </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
           <a

@@ -2,10 +2,10 @@ import { site, whatsappUrl } from "@/app/lib/site";
 import { WhatsappIcon } from "./icons";
 
 const navLinks = [
+  { href: "#valores", label: "Como funciona" },
   { href: "#espaco", label: "O espaço" },
   { href: "#estrutura", label: "Estrutura" },
   { href: "#galeria", label: "Galeria" },
-  { href: "#valores", label: "Valores" },
   { href: "#localizacao", label: "Localização" },
 ];
 

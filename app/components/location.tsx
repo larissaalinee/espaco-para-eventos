@@ -29,7 +29,7 @@ export function Location() {
             Localização
           </p>
           <h2 className="font-display text-3xl font-bold leading-tight text-forest-950 sm:text-4xl">
-            Pertinho do centro, longe da correria
+            Como chegar
           </h2>
           <p className="mt-4 text-base text-forest-950/70">
             O espaço fica no bairro {site.neighborhood}, em {site.city} -{" "}
