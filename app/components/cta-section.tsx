@@ -24,7 +24,7 @@ export function CtaSection() {
           href={whatsappUrl()}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-10 inline-flex items-center justify-center gap-3 rounded-full bg-whatsapp px-10 py-5 text-lg font-bold text-forest-950 shadow-xl shadow-whatsapp/25 transition hover:bg-whatsapp-dark hover:text-white"
+          className="mt-10 inline-flex w-full items-center justify-center gap-3 rounded-full bg-whatsapp px-6 py-4 text-base font-bold text-forest-950 shadow-xl shadow-whatsapp/25 transition hover:bg-whatsapp-dark hover:text-white sm:w-auto sm:px-10 sm:py-5 sm:text-lg"
         >
           <WhatsappIcon className="h-6 w-6" />
           Chama no whats e reserve sua data

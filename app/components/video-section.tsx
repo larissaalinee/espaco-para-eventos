@@ -41,7 +41,7 @@ export function VideoSection() {
 
         <div className="mx-auto mt-14 grid max-w-5xl gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {videos.map((video) => (
-            <div key={video.src}>
+            <div key={video.src} className="mx-auto w-full max-w-[300px] sm:max-w-none">
               <video
                 controls
                 playsInline
@@ -67,7 +67,7 @@ export function VideoSection() {
             href={whatsappUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 rounded-full bg-whatsapp px-8 py-4 text-base font-bold text-forest-950 shadow-lg shadow-whatsapp/20 transition hover:bg-whatsapp-dark hover:text-white"
+            className="inline-flex items-center gap-3 rounded-full bg-whatsapp px-6 py-3.5 text-base font-bold text-forest-950 shadow-lg shadow-whatsapp/20 transition hover:bg-whatsapp-dark hover:text-white sm:px-8 sm:py-4"
           >
             <WhatsappIcon className="h-5 w-5" />
             Gostou? Chama no whats e reserve sua data
