@@ -18,8 +18,8 @@
   --color-river-500: #3f8a80;
   --color-whatsapp: #25d366;
   --color-whatsapp-dark: #1da851;
-  --font-sans: var(--font-inter);
-  --font-display: var(--font-playfair);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
 }
 
 html {
