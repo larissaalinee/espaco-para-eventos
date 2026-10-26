@@ -10,7 +10,8 @@ export function Footer() {
             {site.name}
           </p>
           <p className="mt-1 text-sm text-cream-100/60">
-            Bairro {site.neighborhood} &bull; {site.city} - {site.state}
+            Centro &bull; {site.city} - {site.state} &bull; pertinho da
+            rodoviária
           </p>
         </div>
 

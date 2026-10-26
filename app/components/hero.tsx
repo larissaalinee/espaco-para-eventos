@@ -39,7 +39,7 @@ export function Hero() {
 
       <div className="relative mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
         <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/20 bg-forest-950/50 px-3.5 py-1.5 text-[11px] font-medium uppercase tracking-[0.18em] text-cream-100 backdrop-blur-sm sm:mb-6 sm:px-4 sm:text-xs">
-          Bairro {site.neighborhood} &bull; {site.city} - {site.state}
+          {site.city} - {site.state} &bull; pertinho da rodoviária
         </p>
 
         <p className="font-display text-xl text-sun-400 sm:text-2xl">

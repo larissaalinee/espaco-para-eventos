@@ -32,8 +32,8 @@ export function Location() {
             Como chegar
           </h2>
           <p className="mt-4 text-base text-forest-950/70">
-            O espaço fica no bairro {site.neighborhood}, em {site.city} -{" "}
-            {site.state}. Em poucos minutos de carro você sai do centro e já
+            O espaço fica no centro de {site.city} - {site.state}, pertinho da
+            rodoviária. Em poucos minutos de carro você sai do movimento e já
             está na natureza.
           </p>
         </div>
@@ -77,10 +77,10 @@ export function Location() {
                   <MapPinIcon className="h-6 w-6" />
                 </span>
                 <p className="mt-4 font-display text-xl font-bold text-cream-50">
-                  Bairro {site.neighborhood}
+                  Centro de {site.city}
                 </p>
                 <p className="mt-1 text-sm text-cream-100/70">
-                  {site.city} - {site.state}
+                  {site.state} &bull; pertinho da rodoviária da cidade
                 </p>
               </div>
               <a

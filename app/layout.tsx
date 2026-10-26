@@ -16,12 +16,13 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Espaço para Eventos | Área externa com vista para o rio em São Leopoldo/RS",
   description:
-    "Espaço amplo ao ar livre no bairro Rio dos Sinos, em São Leopoldo/RS. Churrasqueira, piscina, mesas e cadeiras para 40 pessoas, Wi-Fi, estacionamento e som liberado. Espaço para até 100 convidados, a 3 minutos do centro. Reserve sua data pelo WhatsApp.",
+    "Espaço amplo ao ar livre no centro de São Leopoldo/RS, pertinho da rodoviária. Churrasqueira, piscina, mesas e cadeiras para 40 pessoas, Wi-Fi, estacionamento e som liberado. Espaço para até 100 convidados. Reserve sua data pelo WhatsApp.",
   keywords: [
     "espaço para eventos",
     "locação para festas",
     "São Leopoldo",
-    "Rio dos Sinos",
+    "centro de São Leopoldo",
+    "rodoviária São Leopoldo",
     "churrasqueira",
     "piscina",
     "eventos ao ar livre",
