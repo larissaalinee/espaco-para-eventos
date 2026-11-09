@@ -19,7 +19,6 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <HowItWorks />
-        <CancellationPolicy />
         <About />
         <Structure />
         <Gallery />
@@ -27,6 +26,7 @@ export default function Home() {
         <VisitSection />
         <VideoSection />
         <CtaSection />
+        <CancellationPolicy />
       </main>
       <Footer />
       <WhatsappFloat />

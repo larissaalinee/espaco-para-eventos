@@ -2,11 +2,6 @@ import Image from "next/image";
 
 const photos = [
   {
-    src: "/fotos/galeria-revelacao-casal.jpeg",
-    alt: "Casal se encontrando durante chá revelação com fumaça azul e arco de balões",
-    caption: "Chá revelação",
-  },
-  {
     src: "/fotos/galeria-revelacao-abraco.jpeg",
     alt: "Casal se abraçando na revelação, com piscas e balões ao redor",
     caption: "O grande momento",
