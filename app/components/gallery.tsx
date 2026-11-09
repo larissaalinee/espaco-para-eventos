@@ -37,6 +37,11 @@ const photos = [
     caption: "Até a piscina entra na decoração",
   },
   {
+    src: "/fotos/galeria-cascata-palmeiras.jpeg",
+    alt: "Piscina com cascata de água caindo e palmeiras ao redor",
+    caption: "Cascata e palmeiras",
+  },
+  {
     src: "/fotos/galeria-piscina-noite.jpeg",
     alt: "Piscina com cascata iluminada e árvores ao fundo à noite",
     caption: "Noites iluminadas",
