@@ -2,17 +2,12 @@ const rules = [
   {
     title: "Desistência dentro de 7 dias após o pagamento do sinal",
     description:
-      "O valor pago será devolvido integralmente (100%), desde que o cancelamento seja solicitado com no mínimo 48 horas de antecedência da data do evento.",
+      "O valor pago será devolvido integralmente (100%), desde que o cancelamento seja solicitado com no mínimo 48 horas de antecedência da data do evento. Cancelamentos feitos com menos de 48 horas não têm devolução integral.",
   },
   {
     title: "Desistência após os 7 dias do pagamento do sinal",
     description:
       "Será retido 30% do valor total da reserva como compensação pela data reservada. O restante do valor já pago será devolvido.",
-  },
-  {
-    title: "Cancelamento com menos de 48 horas de antecedência",
-    description:
-      "Não haverá devolução integral, ainda que o cancelamento ocorra dentro dos 7 dias do pagamento do sinal.",
   },
   {
     title: "Troca de data",
