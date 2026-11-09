@@ -7,7 +7,7 @@ const navLinks = [
   { href: "#estrutura", label: "Estrutura" },
   { href: "#galeria", label: "Galeria" },
   { href: "#localizacao", label: "Localização" },
-  { href: "#politica", label: "Política" },
+  { href: "#politica", label: "Política de cancelamento", short: "Política" },
 ];
 
 export function Header() {
@@ -30,7 +30,14 @@ export function Header() {
               href={link.href}
               className="text-sm text-cream-100/80 transition-colors hover:text-cream-50"
             >
-              {link.label}
+              {link.short ? (
+                <>
+                  <span className="hidden lg:inline">{link.label}</span>
+                  <span className="lg:hidden">{link.short}</span>
+                </>
+              ) : (
+                link.label
+              )}
             </a>
           ))}
         </nav>

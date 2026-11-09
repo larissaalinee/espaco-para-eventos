@@ -6,6 +6,7 @@ import { Gallery } from "./components/gallery";
 import { HowItWorks } from "./components/how-it-works";
 import { CancellationPolicy } from "./components/cancellation-policy";
 import { Location } from "./components/location";
+import { VisitSection } from "./components/visit-section";
 import { VideoSection } from "./components/video-section";
 import { CtaSection } from "./components/cta-section";
 import { Footer } from "./components/footer";
@@ -23,6 +24,7 @@ export default function Home() {
         <Structure />
         <Gallery />
         <Location />
+        <VisitSection />
         <VideoSection />
         <CtaSection />
       </main>
