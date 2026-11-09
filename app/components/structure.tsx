@@ -40,7 +40,7 @@ const amenities = [
   {
     icon: TablesIcon,
     title: "Mesas e cadeiras",
-    description: `Acomoda ${site.capacity} pessoas sentadas.`,
+    description: `Acomoda ${site.capacity} pessoas.`,
   },
   {
     icon: WifiIcon,
