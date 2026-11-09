@@ -80,9 +80,9 @@ export function HowItWorks() {
             Simples do início ao fim
           </h2>
           <p className="mt-4 text-base text-forest-950/70">
-            Trabalhamos com diárias. Os valores partem de R$ 350,00 e variam
-            conforme a data e o tipo de evento. Você escolhe, reserva e só se
-            preocupa em curtir.
+            Reservas a partir de R$ 350,00. Você decide quantas horas, o início
+            e o fim que deseja para o seu evento, e a gente faz o orçamento
+            sob medida para você.
           </p>
         </div>
 
