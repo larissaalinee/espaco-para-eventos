@@ -37,11 +37,6 @@ const photos = [
     caption: "Até a piscina entra na decoração",
   },
   {
-    src: "/fotos/galeria-cascata-palmeiras.jpeg",
-    alt: "Piscina com cascata de água e plantas tropicais ao redor",
-    caption: "Cascata e palmeiras",
-  },
-  {
     src: "/fotos/galeria-por-do-sol-rio.jpeg",
     alt: "Pôr do sol sobre o rio, visto do espaço com cerca de madeira",
     caption: "Pôr do sol no rio",

@@ -23,8 +23,8 @@ export function Location() {
           <div className="relative overflow-hidden rounded-3xl border border-forest-950/10 bg-forest-900">
             <div className="relative h-72 sm:h-96">
               <Image
-                src="/fotos/galeria-piscina-noite.jpeg"
-                alt="Piscina com cascata iluminada à noite no espaço"
+                src="/fotos/galeria-cascata-palmeiras.jpeg"
+                alt="Piscina com cascata de água caindo e palmeiras ao redor"
                 fill
                 sizes="(max-width: 1024px) 100vw, 60vw"
                 className="object-cover"
