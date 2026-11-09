@@ -4,6 +4,7 @@ import { About } from "./components/about";
 import { Structure } from "./components/structure";
 import { Gallery } from "./components/gallery";
 import { HowItWorks } from "./components/how-it-works";
+import { CancellationPolicy } from "./components/cancellation-policy";
 import { Location } from "./components/location";
 import { VideoSection } from "./components/video-section";
 import { CtaSection } from "./components/cta-section";
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <HowItWorks />
+        <CancellationPolicy />
         <About />
         <Structure />
         <Gallery />
