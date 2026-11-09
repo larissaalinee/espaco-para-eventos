@@ -1,14 +1,12 @@
 import {
   AccessibilityIcon,
   BathroomIcon,
-  ClockIcon,
   FreezerIcon,
   GrillIcon,
   MusicIcon,
   PoolIcon,
   SinkIcon,
   TablesIcon,
-  TreeIcon,
   WifiIcon,
 } from "./icons";
 import { site } from "@/app/lib/site";
@@ -42,7 +40,7 @@ const amenities = [
   {
     icon: TablesIcon,
     title: "Mesas e cadeiras",
-    description: `Mesas e cadeiras para ${site.capacity} pessoas sentadas, em um espaço que comporta até ${site.spaceCapacity} convidados.`,
+    description: `Acomoda ${site.capacity} pessoas sentadas.`,
   },
   {
     icon: WifiIcon,
@@ -54,33 +52,6 @@ const amenities = [
     title: "Rampas de acesso",
     description:
       "Acesso facilitado para cadeirantes e pessoas com mobilidade reduzida.",
-  },
-];
-
-const diferenciais = [
-  {
-    icon: MusicIcon,
-    title: "Som alto o evento todo",
-    description:
-      "Sua playlist pode rolar no volume máximo, do início ao fim da festa.",
-  },
-  {
-    icon: ClockIcon,
-    title: "Horário do seu jeito",
-    description:
-      "Você decide o horário de início e término da festa. É só nos passar certinho e respeitar o combinado.",
-  },
-  {
-    icon: TablesIcon,
-    title: "Zero preocupação",
-    description:
-      "Mesas e cadeiras para até 40 pessoas disponíveis para você não se preocupar com nada no dia do evento.",
-  },
-  {
-    icon: TreeIcon,
-    title: "100% ao ar livre",
-    description:
-      "Evento em contato direto com a natureza, com vista para o rio.",
   },
 ];
 
@@ -120,26 +91,18 @@ export function Structure() {
           ))}
         </div>
 
-        <h3 className="mt-20 text-center font-display text-2xl font-bold text-forest-950">
-          Nossos diferenciais
-        </h3>
-        <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-          {diferenciais.map((item) => (
-            <div
-              key={item.title}
-              className="flex items-start gap-4 rounded-2xl bg-forest-900 p-6 text-cream-50"
-            >
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/10 text-sun-400">
-                <item.icon className="h-6 w-6" />
-              </span>
-              <div>
-                <h3 className="text-base font-semibold">{item.title}</h3>
-                <p className="mt-1 text-sm leading-relaxed text-cream-100/70">
-                  {item.description}
-                </p>
-              </div>
+        <div className="mt-6 flex flex-col items-start gap-4 rounded-2xl bg-forest-900 p-7 text-cream-50 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-start gap-4">
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/10 text-sun-400">
+              <MusicIcon className="h-6 w-6" />
+            </span>
+            <div>
+              <h3 className="text-base font-semibold">Som alto o evento todo</h3>
+              <p className="mt-1 text-sm leading-relaxed text-cream-100/70">
+                Curta sua playlist no volume máximo, do início ao fim da festa.
+              </p>
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>

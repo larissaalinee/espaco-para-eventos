@@ -10,28 +10,19 @@ export function Footer() {
             {site.name}
           </p>
           <p className="mt-1 text-sm text-cream-100/60">
-            Centro &bull; {site.city} - {site.state} &bull; pertinho da
-            rodoviária
+            {site.city} - {site.state}
           </p>
         </div>
 
-        <div className="flex flex-col items-center gap-4 md:items-end">
-          <a
-            href={whatsappUrl()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-medium text-cream-100/80 transition hover:text-whatsapp"
-          >
-            <WhatsappIcon className="h-5 w-5" />
-            {site.whatsappDisplay}
-          </a>
-          <a
-            href="#politica"
-            className="text-xs text-cream-100/50 underline-offset-4 transition hover:text-cream-100 hover:underline"
-          >
-            Política de cancelamento
-          </a>
-        </div>
+        <a
+          href={whatsappUrl()}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-sm font-medium text-cream-100/80 transition hover:text-whatsapp"
+        >
+          <WhatsappIcon className="h-5 w-5" />
+          {site.whatsappDisplay}
+        </a>
       </div>
       <p className="mt-8 text-center text-xs text-cream-100/40">
         &copy; 2026 {site.name}. Todos os direitos

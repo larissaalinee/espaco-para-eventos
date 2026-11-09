@@ -2,33 +2,10 @@ import { whatsappUrl } from "@/app/lib/site";
 import {
   BroomIcon,
   CalendarIcon,
-  CheckIcon,
   MoneyIcon,
-  MusicIcon,
   RainIcon,
-  SparklesIcon,
   WhatsappIcon,
 } from "./icons";
-
-const plans = [
-  {
-    icon: CalendarIcon,
-    name: "Diária",
-    description:
-      "O espaço é seu pelo período que combinarmos, com piscina, churrasqueira, mesas e cadeiras inclusos.",
-    price: "A partir de R$ 350",
-    message: "Olá! Quero saber os valores das diárias do espaço para eventos.",
-  },
-  {
-    icon: MusicIcon,
-    name: "Festa à noite",
-    description:
-      "A festa continua depois do pôr do sol, com som liberado e espaço para os convidados.",
-    price: "Valores diferenciados",
-    message:
-      "Olá! Quero informações sobre festas à noite no espaço para eventos.",
-  },
-];
 
 const policies = [
   {
@@ -50,21 +27,9 @@ const policies = [
   },
   {
     icon: BroomIcon,
-    title: "Sem taxa de limpeza",
+    title: "Limpeza sem preocupação",
     description:
-      "Não cobramos taxa de limpeza: pedimos apenas a entrega do espaço limpo e organizado.",
-  },
-  {
-    icon: SparklesIcon,
-    title: "Limpeza por nossa conta",
-    description:
-      "Não quer se preocupar com isso no dia da festa? Deixe com a gente — consulte o valor no orçamento.",
-  },
-  {
-    icon: CheckIcon,
-    title: "Tudo pronto no seu dia",
-    description:
-      "No dia do evento você recebe o espaço limpo e organizado, pronto para aproveitar.",
+      "Não cobramos taxa de limpeza: entregamos o espaço limpo e organizado. Se preferir deixar isso com a gente, fazemos a limpeza por nossa conta — consulte o valor no orçamento.",
   },
 ];
 
@@ -83,52 +48,26 @@ export function HowItWorks() {
             Você decide o horário de início e fim do seu evento!
           </p>
           <p className="mt-3 text-base text-forest-950/70">
-            Reservas a partir de R$ 350,00. Você escolhe o período da sua festa
-            e a gente faz o orçamento sob medida para você.
+            Reservas a partir de R$ 350,00. Você escolhe o período da sua festa,
+            a gente faz o orçamento personalizado e combina os horários certinho
+            com você.
           </p>
+          <a
+            href={whatsappUrl()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-7 inline-flex w-full items-center justify-center gap-3 rounded-full bg-whatsapp px-6 py-3.5 text-base font-bold text-forest-950 shadow-lg shadow-whatsapp/20 transition hover:bg-whatsapp-dark hover:text-white sm:w-auto sm:px-8 sm:py-4"
+          >
+            <WhatsappIcon className="h-5 w-5" />
+            Consultar valores
+          </a>
         </div>
-
-        <div className="mt-14 grid gap-5 md:grid-cols-3">
-          {plans.map((plan) => (
-            <div
-              key={plan.name}
-              className="flex flex-col rounded-2xl border border-forest-950/5 bg-white p-7 shadow-sm"
-            >
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-forest-700/10 text-forest-700">
-                <plan.icon className="h-6 w-6" />
-              </span>
-              <h3 className="mt-4 text-lg font-semibold text-forest-950">
-                {plan.name}
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-forest-950/60">
-                {plan.description}
-              </p>
-              <p className="mt-4 font-display text-2xl font-bold text-forest-800">
-                {plan.price}
-              </p>
-              <a
-                href={whatsappUrl(plan.message)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-flex items-center justify-center gap-2 rounded-full border border-forest-700/30 px-5 py-2.5 text-sm font-semibold text-forest-800 transition hover:border-forest-700 hover:bg-forest-700 hover:text-cream-50 mt-auto"
-              >
-                <WhatsappIcon className="h-4 w-4" />
-                Consultar
-              </a>
-            </div>
-          ))}
-        </div>
-
-        <p className="mt-6 text-center text-sm text-forest-950/50">
-          O valor depende da data e do horário do seu evento. Fale com a gente
-          para uma cotação personalizada.
-        </p>
 
         <div className="mt-16">
           <h3 className="text-center font-display text-2xl font-bold text-forest-950">
             Bom saber
           </h3>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid gap-5 sm:grid-cols-2">
             {policies.map((policy) => (
               <div
                 key={policy.title}
@@ -137,9 +76,7 @@ export function HowItWorks() {
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 text-sun-400">
                   <policy.icon className="h-5 w-5" />
                 </span>
-                <h4 className="mt-4 text-base font-semibold">
-                  {policy.title}
-                </h4>
+                <h4 className="mt-4 text-base font-semibold">{policy.title}</h4>
                 <p className="mt-2 text-sm leading-relaxed text-cream-100/70">
                   {policy.description}
                 </p>

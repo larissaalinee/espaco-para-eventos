@@ -1,11 +1,4 @@
 import Image from "next/image";
-import { CheckIcon } from "./icons";
-
-const points = [
-  "Espaço para eventos de até 100 pessoas",
-  "Mesas e cadeiras para 40 lugares",
-  "Estacionamento dentro do espaço",
-];
 
 export function About() {
   return (
@@ -23,42 +16,23 @@ export function About() {
             paisagem do rio ao fundo. Você monta a festa do seu jeito, com
             liberdade total e conforto.
           </p>
-          <ul className="mt-8 space-y-4">
-            {points.map((point) => (
-              <li key={point} className="flex items-start gap-3">
-                <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-forest-700/10 text-forest-700">
-                  <CheckIcon className="h-4 w-4" />
-                </span>
-                <span className="text-base text-forest-950/80">{point}</span>
-              </li>
-            ))}
-          </ul>
         </div>
 
-        <SceneryCard />
+        <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl shadow-forest-950/20">
+          <Image
+            src="/fotos/galeria-piscina-churrasqueira.jpeg"
+            alt="Piscina, churrasqueira e natureza ao redor"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover"
+          />
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-forest-950/90 to-transparent p-6 pt-16">
+            <p className="font-display text-lg font-semibold text-cream-50">
+              Piscina, churrasqueira e natureza
+            </p>
+          </div>
+        </div>
       </div>
     </section>
-  );
-}
-
-function SceneryCard() {
-  return (
-    <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl shadow-forest-950/20">
-      <Image
-        src="/fotos/galeria-piscina-churrasqueira.jpeg"
-        alt="Piscina, churrasqueira e natureza ao redor"
-        fill
-        sizes="(max-width: 1024px) 100vw, 50vw"
-        className="object-cover"
-      />
-      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-forest-950/90 to-transparent p-6 pt-16">
-        <p className="font-display text-lg font-semibold text-cream-50">
-          Piscina, churrasqueira e natureza
-        </p>
-        <p className="mt-1 text-sm text-cream-100/70">
-          Muito verde ao redor e espaço de sobra para o seu evento.
-        </p>
-      </div>
-    </div>
   );
 }

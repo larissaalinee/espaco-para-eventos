@@ -7,6 +7,7 @@ const navLinks = [
   { href: "#estrutura", label: "Estrutura" },
   { href: "#galeria", label: "Galeria" },
   { href: "#localizacao", label: "Localização" },
+  { href: "#politica", label: "Política" },
 ];
 
 export function Header() {
@@ -22,7 +23,7 @@ export function Header() {
           </span>
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-6 md:flex lg:gap-7">
           {navLinks.map((link) => (
             <a
               key={link.href}
