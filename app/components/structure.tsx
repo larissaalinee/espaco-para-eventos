@@ -66,10 +66,6 @@ export function Structure() {
           <h2 className="font-display text-3xl font-bold leading-tight text-forest-950 sm:text-4xl">
             Tudo pronto para o seu dia
           </h2>
-          <p className="mt-4 text-base text-forest-950/70">
-            Você só precisa levar a comida, a bebida e a boa energia. Do resto,
-            o espaço cuida.
-          </p>
         </div>
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
