@@ -79,10 +79,12 @@ export function HowItWorks() {
           <h2 className="font-display text-3xl font-bold leading-tight text-forest-950 sm:text-4xl">
             Simples do início ao fim
           </h2>
-          <p className="mt-4 text-base text-forest-950/70">
-            Reservas a partir de R$ 350,00. Você decide quantas horas, o início
-            e o fim que deseja para o seu evento, e a gente faz o orçamento
-            sob medida para você.
+          <p className="mt-4 font-display text-xl text-forest-800 sm:text-2xl">
+            Você decide o horário de início e fim do seu evento!
+          </p>
+          <p className="mt-3 text-base text-forest-950/70">
+            Reservas a partir de R$ 350,00. Você escolhe o período da sua festa
+            e a gente faz o orçamento sob medida para você.
           </p>
         </div>
 
