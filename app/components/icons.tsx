@@ -224,3 +224,14 @@ export function AccessibilityIcon({ className }: IconProps) {
     </svg>
   );
 }
+
+export function FreezerIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className} aria-hidden="true">
+      <rect x="4" y="3" width="16" height="18" rx="2" />
+      <path d="M4 12h16" />
+      <path d="M9.5 6.5v2M9.5 15.5v2" />
+      <path d="M13 7.5h3M13 16.5h3" />
+    </svg>
+  );
+}

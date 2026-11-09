@@ -2,6 +2,7 @@ import {
   AccessibilityIcon,
   BathroomIcon,
   ClockIcon,
+  FreezerIcon,
   GrillIcon,
   MusicIcon,
   PoolIcon,
@@ -27,6 +28,11 @@ const amenities = [
     icon: SinkIcon,
     title: "Bancada com pia",
     description: "Praticidade para preparar e organizar tudo no local.",
+  },
+  {
+    icon: FreezerIcon,
+    title: "Freezer",
+    description: "Para guardar itens e gelar as bebidas da festa.",
   },
   {
     icon: BathroomIcon,

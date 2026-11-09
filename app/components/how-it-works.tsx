@@ -3,7 +3,6 @@ import {
   BroomIcon,
   CalendarIcon,
   CheckIcon,
-  ClockIcon,
   MoneyIcon,
   MusicIcon,
   RainIcon,
@@ -13,25 +12,18 @@ import {
 
 const plans = [
   {
-    icon: ClockIcon,
-    name: "Diária de 4 horas",
-    description: "Perfeita para aniversários e confraternizações com horário marcado.",
+    icon: CalendarIcon,
+    name: "Diária",
+    description:
+      "O espaço é seu pelo período que combinarmos, com piscina, churrasqueira, mesas e cadeiras inclusos.",
     price: "A partir de R$ 350",
-    message:
-      "Olá! Quero saber os valores da diária de 4 horas do espaço para eventos.",
-  },
-  {
-    icon: ClockIcon,
-    name: "Diária de 8 horas",
-    description: "O dia inteiro para curtir piscina, churrasco e boa companhia.",
-    price: "Consulte valores",
-    message:
-      "Olá! Quero saber os valores da diária de 8 horas do espaço para eventos.",
+    message: "Olá! Quero saber os valores das diárias do espaço para eventos.",
   },
   {
     icon: MusicIcon,
-    name: "Festas à noite",
-    description: "A festa continua depois do pôr do sol, com som liberado.",
+    name: "Festa à noite",
+    description:
+      "A festa continua depois do pôr do sol, com som liberado e espaço para os convidados.",
     price: "Valores diferenciados",
     message:
       "Olá! Quero informações sobre festas à noite no espaço para eventos.",
@@ -88,8 +80,9 @@ export function HowItWorks() {
             Simples do início ao fim
           </h2>
           <p className="mt-4 text-base text-forest-950/70">
-            Trabalhamos com diárias de 4 horas ou de 8 horas. Você escolhe,
-            reserva e só se preocupa em curtir.
+            Trabalhamos com diárias. Os valores partem de R$ 350,00 e variam
+            conforme a data e o tipo de evento. Você escolhe, reserva e só se
+            preocupa em curtir.
           </p>
         </div>
 
