@@ -37,6 +37,11 @@ const photos = [
     caption: "Até a piscina entra na decoração",
   },
   {
+    src: "/fotos/galeria-piscina-noite.jpeg",
+    alt: "Piscina com cascata iluminada e árvores ao fundo à noite",
+    caption: "Noites iluminadas",
+  },
+  {
     src: "/fotos/galeria-por-do-sol-rio.jpeg",
     alt: "Pôr do sol sobre o rio, visto do espaço com cerca de madeira",
     caption: "Pôr do sol no rio",
