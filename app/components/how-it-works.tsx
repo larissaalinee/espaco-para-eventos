@@ -118,8 +118,8 @@ export function HowItWorks() {
         </div>
 
         <p className="mt-6 text-center text-sm text-forest-950/50">
-          Valores variam conforme data, horário e tipo de evento. Fale com a
-          gente para uma cotação personalizada.
+          O valor depende da data e do horário do seu evento. Fale com a gente
+          para uma cotação personalizada.
         </p>
 
         <div className="mt-16">
