@@ -3,7 +3,6 @@ import { WhatsappIcon } from "./icons";
 
 const navLinks = [
   { href: "#valores", label: "Como funciona" },
-  { href: "#espaco", label: "O espaço" },
   { href: "#estrutura", label: "Estrutura" },
   { href: "#galeria", label: "Galeria" },
   { href: "#localizacao", label: "Localização" },

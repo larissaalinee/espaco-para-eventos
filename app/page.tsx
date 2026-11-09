@@ -1,6 +1,5 @@
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
-import { About } from "./components/about";
 import { Structure } from "./components/structure";
 import { Gallery } from "./components/gallery";
 import { HowItWorks } from "./components/how-it-works";
@@ -19,7 +18,6 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <HowItWorks />
-        <About />
         <Structure />
         <Gallery />
         <VideoSection />
