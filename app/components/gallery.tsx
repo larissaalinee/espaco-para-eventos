@@ -60,8 +60,7 @@ export function Gallery() {
             Um pouco do que acontece aqui
           </h2>
           <p className="mt-4 text-base text-forest-950/70">
-            Cada evento vira uma lembrança especial. Veja como o espaço se
-            transforma.
+            Veja como o espaço se transforma!
           </p>
         </div>
 
