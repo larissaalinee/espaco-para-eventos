@@ -22,9 +22,9 @@ export default function Home() {
         <Gallery />
         <VideoSection />
         <Location />
+        <CancellationPolicy />
         <VisitSection />
         <CtaSection />
-        <CancellationPolicy />
       </main>
       <Footer />
       <WhatsappFloat />
