@@ -26,10 +26,7 @@ export function CancellationPolicy() {
     <section id="politica" className="scroll-mt-20 bg-cream-50 py-20 sm:py-24">
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <div className="rounded-3xl border border-forest-950/10 bg-white p-6 shadow-sm sm:p-10">
-          <p className="text-center text-sm font-semibold uppercase tracking-[0.2em] text-forest-600">
-            Política
-          </p>
-          <h2 className="mt-2 text-center font-display text-2xl font-bold text-forest-950 sm:text-3xl">
+          <h2 className="text-center font-display text-2xl font-bold text-forest-950 sm:text-3xl">
             Política de cancelamento
           </h2>
 
