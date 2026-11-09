@@ -7,11 +7,6 @@ const photos = [
     caption: "O grande momento",
   },
   {
-    src: "/fotos/galeria-festa.jpeg",
-    alt: "Chá revelação decorado à beira da piscina, com equipe do espaço",
-    caption: "Festas à beira da piscina",
-  },
-  {
     src: "/fotos/galeria-mesa-doces.jpeg",
     alt: "Mesa de doces decorada para celebração ao ar livre",
     caption: "Decore do seu jeito",
@@ -50,6 +45,16 @@ const photos = [
     src: "/fotos/galeria-por-do-sol-rio.jpeg",
     alt: "Pôr do sol sobre o rio, visto do espaço com cerca de madeira",
     caption: "Pôr do sol no rio",
+  },
+  {
+    src: "/fotos/galeria-piscina-palmeiras.jpeg",
+    alt: "Piscina com palmeiras e árvores ao fundo sob o céu azul",
+    caption: "Piscina com palmeiras",
+  },
+  {
+    src: "/fotos/galeria-jardim.jpeg",
+    alt: "Jardim gramado com árvores grandes e a piscina ao fundo",
+    caption: "Verde e sombra",
   },
 ];
 

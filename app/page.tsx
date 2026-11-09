@@ -22,9 +22,9 @@ export default function Home() {
         <About />
         <Structure />
         <Gallery />
+        <VideoSection />
         <Location />
         <VisitSection />
-        <VideoSection />
         <CtaSection />
         <CancellationPolicy />
       </main>
