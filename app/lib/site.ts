@@ -9,10 +9,8 @@ export const site = {
   spaceCapacity: 100,
 };
 
-export function whatsappUrl(
-  message = "Olá! Quero reservar uma data no Espaço para Eventos. Pode me passar mais informações?"
-) {
-  return `https://wa.me/${site.whatsappNumber}?text=${encodeURIComponent(message)}`;
+export function whatsappUrl() {
+  return `https://wa.me/${site.whatsappNumber}`;
 }
 
 export const mapsUrl =

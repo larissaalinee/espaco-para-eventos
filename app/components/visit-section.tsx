@@ -25,9 +25,7 @@ export function VisitSection() {
             </div>
           </div>
           <a
-            href={whatsappUrl(
-              "Olá! Quero agendar uma visita para conhecer o espaço. Qual dia e horário fica melhor para mim?"
-            )}
+            href={whatsappUrl()}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex w-full shrink-0 items-center justify-center gap-3 rounded-full bg-whatsapp px-6 py-3.5 text-base font-bold text-forest-950 shadow-lg shadow-whatsapp/20 transition hover:bg-whatsapp-dark hover:text-white lg:w-auto lg:px-8 lg:py-4"
