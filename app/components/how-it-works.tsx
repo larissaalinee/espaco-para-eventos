@@ -29,7 +29,7 @@ const policies = [
     icon: BroomIcon,
     title: "Limpeza sem preocupação",
     description:
-      "Não cobramos taxa se você entregar o espaço limpo e organizado. Se preferir deixar a limpeza com a gente, cobramos uma taxa de limpeza — consulte o valor.",
+      "Não cobramos taxa se você entregar o espaço limpo e organizado. Se preferir deixar com a gente, cobramos uma taxa de limpeza — consulte o valor.",
   },
 ];
 
