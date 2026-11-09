@@ -7,7 +7,7 @@ const rules = [
   {
     title: "Desistência após os 7 dias do pagamento do sinal",
     description:
-      "Será retido 30% do valor total do aluguel como compensação pela reserva da data. O restante do valor já pago será devolvido.",
+      "Será retido 30% do valor total da reserva como compensação pela data reservada. O restante do valor já pago será devolvido.",
   },
   {
     title: "Cancelamento com menos de 48 horas de antecedência",
