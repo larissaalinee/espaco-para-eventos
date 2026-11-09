@@ -30,12 +30,12 @@ const amenities = [
   {
     icon: FreezerIcon,
     title: "Freezer",
-    description: "Para guardar itens e gelar as bebidas da festa.",
+    description: "Porque seu evento merece uma cerveja gelada!",
   },
   {
     icon: BathroomIcon,
     title: "Banheiro",
-    description: "Estrutura de higiene disponível durante todo o evento.",
+    description: "",
   },
   {
     icon: TablesIcon,
@@ -80,9 +80,11 @@ export function Structure() {
               <h3 className="mt-4 text-base font-semibold text-forest-950">
                 {item.title}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-forest-950/60">
-                {item.description}
-              </p>
+              {item.description ? (
+                <p className="mt-2 text-sm leading-relaxed text-forest-950/60">
+                  {item.description}
+                </p>
+              ) : null}
             </div>
           ))}
         </div>
