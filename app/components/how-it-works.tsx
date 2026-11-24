@@ -48,7 +48,7 @@ export function HowItWorks() {
             Você decide o horário de início e fim do seu evento!
           </p>
           <p className="mt-3 text-base text-forest-950/70">
-            Reservas a partir de R$ 350,00. Você escolhe o período da sua festa,
+            Reservas a partir de R$ 380,00. Você escolhe o período da sua festa,
             a gente faz o orçamento personalizado e combina os horários certinho
             com você.
           </p>
